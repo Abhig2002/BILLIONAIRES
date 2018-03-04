@@ -1,0 +1,128 @@
+#big_wrapper{
+    background:white;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+h1{
+    font: bold 40px Tahoma;
+}
+h2{
+    font: bold 20px Tahoma;
+}
+h3{
+    font: bold 14px Tahoma;
+}
+header, section, footer, aside, nav, article, hgroup{
+    display:block;
+}
+body{
+    width:100%;
+    display:-webkit-box;
+    -webkit-box-pack: center;
+}
+#big_wrapper{
+    max-width: 1000px;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;
+}
+#top_headerheader{
+    border: none;
+    background: #C8C8C8;
+    padding:20px;
+    width: 95%;
+    height: 50px;
+}
+div.compname {
+    height: 23px;
+    position: relative;
+    top: 00%;
+}
+div.complogo {
+    height: 23px;
+    position: relative;
+    top: -90%;
+}
+#top_menu li{
+    display:inline-block;
+    list-style:none;
+    padding:5px;
+    font: bold 14px Tahoma;
+}
+#new_div{
+    display:-webkit-box;
+    -web-box-orient:horizontal
+}
+#main_section{
+    float: left;
+    margin: 20px;
+    width: 57%;
+}
+#side_news{
+    border: 1px solid red;
+    margin: 20px 20px;
+    padding: 30px;
+    background: lightblue;
+    width: 25%;
+    float: right;
+
+}
+#the_footer{
+    text-align:center;
+    padding: 20px;
+    border-top: 2px solid green
+}
+article{
+ background: #FFFBCC;
+ border: 1px solid red;
+ padding: 20px;
+ margin-bottom: 15px;
+}
+article footer {
+ text-align:right;
+}
+
+.tab button {
+    background-color: inherit;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    background-color: #ccc;
+
+}
+
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    }
+
+#tabs {
+    width: 100%;
+    float: left;
+
+    background:#ccc;
+    
+    
+}
+
+
+.search {
+    float:right;
+    
+}
